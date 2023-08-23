@@ -1,15 +1,15 @@
 /* =============  ============= */
+/* ================ / ================ */
 
 /* ============= VARIABLES ============= */
 :root {
-  --primary-color: #ffffff;
-  --secondary-color: #111111;
-  --accent: #4d5ae5;
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --accent-color: #4d5ae5;
 }
 /* ============= /VARIABLES ============= */
 
 /* ============= COMMON STYLES ============= */
-
 .link {
   text-decoration: none;
 }
@@ -21,3 +21,185 @@
 button {
   cursor: pointer;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+/* ============= /COMMON STYLES ============= */
+
+/* ================ COMPONENTS ================ */
+.secton-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-color);
+}
+/* ================ /COMPONENTS ================ */
+
+/* ============= PAGE HEADER ============= */
+
+.logo-link-accent {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.logo-link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16x;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+/* ================ /PAGE HEADER ================ */
+
+/* ================ HERO ================ */
+.hero {
+  background-color: var(--primary-color);
+}
+
+.main-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.order-service-button {
+  color: #fff;
+  background-color: var(--accent-color);
+  font-family: inherit;
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
+}
+/* ================ /HERO ================ */
+
+/* ================ ADVANTAGES ================ */
+
+.advantages-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.advantages-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/* ================ /ADVANTAGES ================ */
+
+/* ================ TEAM ================ */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #fff;
+}
+
+.team-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/* ================ /TEAM ================ */
+
+/* ================ PORTFOLIO ================ */
+
+.portfolio-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/* ================ /PORTFOLIO ================ */
+
+/* ================ FOOTER ================ */
+
+.page-footer {
+  background-color: var(--primary-color);
+}
+
+.page-footer-logo-link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.page-footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* ================ /FOOTER ================ */
