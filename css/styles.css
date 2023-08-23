@@ -1,0 +1,23 @@
+/* =============  ============= */
+
+/* ============= VARIABLES ============= */
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #111111;
+  --accent: #4d5ae5;
+}
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
