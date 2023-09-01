@@ -24,7 +24,7 @@ button {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+  color: var(--secondary-color);
 }
 
 /* ============= /COMMON STYLES ============= */
@@ -42,22 +42,21 @@ body {
 /* ================ /COMPONENTS ================ */
 
 /* ============= PAGE HEADER ============= */
-
 .logo-link-accent {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
 }
 
 .logo-link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16x;
+  line-height: 1.17x;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -71,9 +70,23 @@ body {
   color: var(--primary-color);
 }
 
+.logo-link-text {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17x;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .contacts-link {
@@ -101,10 +114,15 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
 .order-service-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   background-color: var(--accent-color);
   font-family: inherit;
@@ -141,7 +159,7 @@ body {
 }
 
 .team-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .team-list-title {
@@ -190,6 +208,16 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.logo-link-footer-text {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17x;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
