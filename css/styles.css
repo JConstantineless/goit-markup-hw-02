@@ -169,6 +169,10 @@ body {
   color: var(--primary-color);
 }
 
+.team-list-item {
+  background-color: #ffffff;
+}
+
 .team-list-text {
   font-size: 16px;
   line-height: 1.5;
