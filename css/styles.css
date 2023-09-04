@@ -24,13 +24,14 @@ button {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
   color: var(--secondary-color);
 }
 
 /* ============= /COMMON STYLES ============= */
 
 /* ================ COMPONENTS ================ */
-.secton-title {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -49,17 +50,16 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color);
 }
 
 .logo-link {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17x;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .menu-link {
@@ -74,7 +74,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17x;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -204,20 +204,20 @@ body {
 }
 
 .page-footer-logo-link {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--accent-color);
 }
 
 .logo-link-footer-text {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17x;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
